@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+main{
+    background-color:rgb(191, 129, 176); 
+    padding: 20px;
+    
+}
+
+.titulo_content {
+    
+    color:#fff;
+    text-align: center;
+}
+div{
+    text-align: center;
+    margin: 20px;
+    padding: 12px;
+   
+}
+.titulo_forms{
+    text-align: center;
+    color: #fff;
+    margin-bottom: 11px;
+}

@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+/* <!-- aca tuve un problema, el cual es que el css no me reconoce los valores que le doy y deja al div pegado a la izquierda--> */
+.foto_texto{
+    background-image: url("../img/trabajos/trabajos_imagen.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 350px;
+    padding: 100px; 
+}
+
+.titulo_foto_texto{
+    text-align: right;
+
+}
+
+.subtitulo_foto_texto{
+
+    font-weight: 600;
+    margin-bottom: 10px; 
+    margin-left: 20px;
+}
+/* problema hasta aca. */
+
+
+.titulo_abajo_foto_texto{
+    text-align: center;
+    background-color:rgb(187, 99, 165);
+    width: 100%;
+    padding: 7px;
+}
+
+.content_img_trabajos{
+    width: 100%;
+}
+
+.trabajos_content{
+    display: flex;
+    padding: 5px;
+    background-color:rgb(191, 129, 176);    
+}
+
+.columna{
+    flex: 25%;
+    padding: 5px;
+}
+
+.columna .content_img_trabajos {
+margin-top: 10px;
+}
